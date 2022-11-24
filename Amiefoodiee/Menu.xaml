@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.Menu">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F5F5F5">
+            <Image Source="detail.png" Margin="2,5,4,142" WidthRequest="354" HeightRequest="468"></Image>
+            <Image Source="bag.png" Margin="11,50,317,4" WidthRequest="38" HeightRequest="39"></Image>
+            <ImageButton x:Name="Btnorder" Source="ordernow.png" Margin="90,-50,46,30" BackgroundColor="Transparent"  WidthRequest="253" HeightRequest="43"
+                          Clicked="Btnorder_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

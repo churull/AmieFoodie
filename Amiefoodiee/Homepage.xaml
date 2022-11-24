@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.Homepage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F5F5F5" >
+            <Image Source="profile1.png" Margin="310,30,31,559" WidthRequest="55" HeightRequest="51"></Image>
+            <Image Source="Filter.png" Margin="-5,-625,308,592" WidthRequest="24" HeightRequest="24"></Image>
+            <Label Text="Hi Ms. Brenda"  Margin="33,-580,247,560" HorizontalOptions="Center" WidthRequest="120" HeightRequest="45"
+                   FontSize="Small" FontAttributes="None" TextColor="#BFBFBF" ></Label>
+            <Label Text="Let's Find Something Delicious!"  Margin="10,-580,120,285" HorizontalOptions="Center" 
+                   WidthRequest="234" HeightRequest="58"
+                   FontSize="Large" FontAttributes="None" TextColor="#000000" ></Label>
+                <Image Source="Group29.png" Margin="11,-300,40,0" WidthRequest="309" HeightRequest="279"></Image>
+            <Image Source="y.png" Margin="-290,-10,-290,3" WidthRequest="363" HeightRequest="295"></Image>
+            <ImageButton x:Name="Btnplus" Source="Plus.png" Margin="15,-190,90,141" BackgroundColor="Transparent"  WidthRequest="30" HeightRequest="30"
+                          Clicked="Btnplus_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

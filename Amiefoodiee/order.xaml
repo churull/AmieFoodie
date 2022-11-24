@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.order">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F5F5F5">
+            <Image Source="myorder.png" Margin="6,-70,7,14" WidthRequest="361" HeightRequest="621"></Image>
+            <Image Source="pesan.png" Margin="6,25,7,14" WidthRequest="361" HeightRequest="124"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
